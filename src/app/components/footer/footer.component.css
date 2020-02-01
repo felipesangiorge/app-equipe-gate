@@ -1,8 +1,14 @@
 footer{
-  background-color: #0000002e;
+  background-color: #0000008f;
 }
 
 footer p,b,strong{
   color: white;
+}
+
+@media screen and (max-width:414px){
+  footer{
+    background-color: black;
+  }
 }
 

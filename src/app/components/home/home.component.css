@@ -11,3 +11,8 @@
   background-color: black;
 }
 
+@media screen and (max-width:414px){
+  .content{
+    min-height: 280px;
+  }
+}

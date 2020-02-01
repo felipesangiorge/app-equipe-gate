@@ -1,5 +1,14 @@
 .wrapper{
-  background-image: url(../../src/assets/img/soldierbackground.jpg);
+  background-image: url(../../src/assets/img/base_ota_escuro.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: contain;
 }
+
+@media screen and (max-width:414px){
+  .wrapper{
+    background-image: url(../../src/assets/img/base_ota_escuro.jpg);
+    background-size:  500px;
+    background-repeat: no-repeat;
+  }
+}
+
