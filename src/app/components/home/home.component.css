@@ -1,0 +1,13 @@
+#home-page img {
+  max-width: 100%;
+  max-height: fit-content;
+}
+
+.content{
+  min-height: 620px;
+}
+
+.jumbotron {
+  background-color: black;
+}
+

@@ -1,0 +1,5 @@
+.wrapper{
+  background-image: url(../../src/assets/img/soldierbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
