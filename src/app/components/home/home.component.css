@@ -1,6 +1,10 @@
 #home-page img {
-  max-width: 100%;
+  max-width: 30%;
   max-height: fit-content;
+}
+
+#home-page h1,p{
+  color: white;
 }
 
 .content{
@@ -8,8 +12,18 @@
 }
 
 .jumbotron {
-  background-color: black;
+  background-color: #090e09;
+  margin-bottom: 0px;
 }
+
+#jumbotron-transparent{
+  background-color: #1f1f1f;
+}
+
+#jumbotron-third{
+  background-color: #1f1f1f;
+}
+
 
 @media screen and (max-width:414px){
   .content{

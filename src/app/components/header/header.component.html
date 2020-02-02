@@ -2,7 +2,9 @@
   <nav class="navbar navbar-static-top">
     <div class="container">
       <div class="navbar-header">
-        <a  class="navbar-brand" [routerLink]="['']"><b>Gate Airsoft Team</b></a>
+      <ul class="nav navbar-nav">
+        <li><a  class="navbar-brand" [routerLink]="['']"><b> Gate Airsoft Team</b></a></li>
+      </ul>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
           <i class="fa fa-bars"></i>
         </button>
@@ -12,15 +14,15 @@
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <div class="pull-left">
         <ul class="nav navbar-nav">
-            <li  routerLinkActive="active" [routerLink]="['/remedys']"><a>Início</a></li>
-            <li routerLinkActive="active" [routerLink]="['/remedy-register']"><a>Sobre</a></li>
-            <li routerLinkActive="active" [routerLink]="['/remedy-register']"><a>Membors</a></li>
+            <li  routerLinkActive="active" [routerLink]="['']"><a>Início</a></li>
+            <li routerLinkActive="active" [routerLink]="['/about']"><a>Sobre</a></li>
+            <li routerLinkActive="active" [routerLink]="['/members']"><a>Membors</a></li>
         </ul>
       </div>
 
       <div class="pull-right">
         <ul class="nav navbar-nav">
-            <li class="pull-right" [routerLink]="['/login']"><a>Contato</a></li>
+            <li class="pull-right" [routerLink]="['/contacts']"><a>Contato</a></li>
         </ul>
       </div>
     </div>

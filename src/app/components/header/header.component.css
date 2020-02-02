@@ -3,6 +3,10 @@
   background-color: #0000008f;
 }
 
+.main-header img{
+  max-width: 4%;
+}
+
 .main-header li a{
   color: white;
 }
