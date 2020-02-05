@@ -1,7 +1,13 @@
-.wrapper{
+.background-image-custom-background-login{
   background-image: url(../../src/assets/img/base_ota_escuro.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.background-image-custom-background-members{
+  background-image: url(../../src/assets/img/base_ota_escuro.jpg);
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 @media screen and (max-width:414px){

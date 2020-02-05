@@ -1,1 +1,21 @@
-<p>members works!</p>
+<div>
+<section class="content">
+  <div *ngFor="let user of users">
+  <div class="jumbotron welcome-jumbotron col-md-12 col-md-offset-1 col-xs-12" [@popOverState]="show">
+    <div class="col-md-5">
+      <img src="../../../assets/img/soldierbackground.jpg" alt="">
+    </div>
+    <div class="col-md-7">
+      <h2>{{user.name}}</h2>
+      <h3>Nickname:{{user.nickname}}</h3>
+      <h3>Instagram: <a href="{{user.instagramUrl}}">{{user.instagram}}</a></h3>
+      <h3 *ngIf="user.facebookUrl != null">Facebook: <a href="{{user.facebookUrl}}">{{user.facebookUrl}}</a></h3>
+      <p>{{user.description}}</p>
+      <h3>Patente: {{user.position}}</h3>
+    </div>
+  </div>
+
+</div>
+</section>
+</div>
+

@@ -10,6 +10,13 @@ import { AboutComponent } from './components/about/about.component';
 import { MembersComponent } from './components/members/members.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
+
+import { MembersService } from './components/members/members-service';
+
 
 @NgModule({
   declarations: [
@@ -23,9 +30,11 @@ import { ContactsComponent } from './components/contacts/contacts.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [MembersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
