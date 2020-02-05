@@ -1,6 +1,21 @@
+
+@font-face {
+  font-family: font_gate;
+  src: url(../../../assets/font/font_gate.ttf) format("opentype");
+}
+
 #home-page img {
   max-width: 30%;
   max-height: fit-content;
+}
+
+#page-title{
+  font-size: 63px;
+  font-family:  font_gate;
+}
+
+.font-gate{
+  font-family:  font_gate;
 }
 
 #home-page h1,p{
