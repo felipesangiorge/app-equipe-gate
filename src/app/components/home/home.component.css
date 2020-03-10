@@ -31,6 +31,10 @@
   margin-bottom: 0px;
 }
 
+.members li{
+  margin-top: 20px;
+}
+
 #jumbotron-transparent{
   background-color: #1f1f1f;
 }
@@ -39,6 +43,19 @@
   background-color: #1f1f1f;
 }
 
+#jumbotron-third .row{
+  margin-top: 40px;
+}
+
+li{
+  text-align: center;
+}
+
+li img{
+  width: 150px;
+}
+
+.container-fluid { overflow-x: hidden; }
 
 @media screen and (max-width:414px){
   .content{

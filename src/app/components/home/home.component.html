@@ -27,11 +27,22 @@
 
   <div class="text-right jumbotron welcome-jumbotron col-md-12 col-xs-12" >
     <h1 class="font-gate">Sobre nos.</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu tortor commodo, condimentum ex ac, efficitur felis. Pellentesque laoreet imperdiet orci. Nulla tincidunt elementum tempor. Aenean odio massa, lacinia non risus et, rutrum ultrices ex. Sed non sodales lorem. Vivamus id ullamcorper arcu. Ut magna quam, tristique viverra commodo sit amet, maximus ultrices tortor.</p>
+    <p class="text-left">A Equipe GATE foi fundada no dia 22 de julho de 2016, por um grupo de antigos amigos, na qual elegemos o nosso Team Leader - Gabriel Rocha e decidimos algumas coisa sobre a Equipe. Exemplo = nome e regras.
+      A Equipe GATE tem sede em Lisboa mas o seu campo é em Porto Alto. Hoje contamos com {{usersSize}} elementos no total, sendo dividido em Team Leader, capitães,sargento,soldados e recrutas.</p>
   </div>
 
   <div  id="jumbotron-third" class="text-left jumbotron welcome-jumbotron col-md-12 col-xs-12">
-    <h1 class="font-gate">Torne se um membro</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu tortor commodo, condimentum ex ac, efficitur felis. Pellentesque laoreet imperdiet orci. Nulla tincidunt elementum tempor. Aenean odio massa, lacinia non risus et, rutrum ultrices ex. Sed non sodales lorem. Vivamus id ullamcorper arcu. Ut magna quam, tristique viverra commodo sit amet, maximus ultrices tortor.</p>
+    <h1 class="font-gate text-center">Membros</h1>
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="members" *ngFor="let user of users">
+            <li class="col-md-4">
+              <img src="{{user.roundedPhotoUrl}}" alt="User Image">
+              <a class="users-list-name" href="#">{{user.name}}</a>
+              <span class="users-list-date">{{user.position}}</span>
+            </li>
+          </div>
+        </div>
+     </div>
   </div>
 </div>

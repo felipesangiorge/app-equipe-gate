@@ -7,5 +7,6 @@ export interface User{
   facebookUrl:string
   description:string
   photoUrl:string
+  roundedPhotoUrl:string
   position:string
 }

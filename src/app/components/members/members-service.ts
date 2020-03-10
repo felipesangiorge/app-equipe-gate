@@ -15,7 +15,7 @@ export class MembersService {
   constructor(private http: HttpClient){}
 
 
-users(): Observable<User[]> {
+users(): Observable<User> {
   return this.http.get(`${GATE_API}/users`)
   .pipe(catchError(ErrorHandler.handleError));
 }

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {SlideshowModule} from 'ng-simple-slideshow';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,6 +30,7 @@ import { MembersService } from './components/members/members-service';
     ContactsComponent
   ],
   imports: [
+    SlideshowModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
