@@ -1,6 +1,9 @@
 {
   "name": "equipe-gate-app",
-  "version": "12.6.1",
+  "version": "0.0.1",
+  "engines": {
+    "node": "12.16.1"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
