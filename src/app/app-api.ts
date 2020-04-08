@@ -1,1 +1,1 @@
-export const GATE_API = "http://localhost:3000"
+export const GATE_API = "https://app-equipe-gate-backend.herokuapp.com"
