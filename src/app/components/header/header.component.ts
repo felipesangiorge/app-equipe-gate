@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  hideHeadder: Boolean;
 
-  ngOnInit() {
+
+  constructor() {
+   }
+
+  ngOnInit() {}
+
+  sideBarClicked($event) {
+    const elementClassName = document.getElementById('main-body-attr').className;
+
+    if (elementClassName === 'sidebar-collapse'){
+      this.hideHeadder = true;
+    } else {
+      this.hideHeadder = false;
+    }
   }
-
 }

@@ -1,7 +1,6 @@
-<div>
-<section class="content">
+<section class="content container">
   <div *ngFor="let user of users">
-  <div class="jumbotron welcome-jumbotron col-md-12 col-md-offset-1 col-xs-12" [@popOverState]="show">
+  <div class="jumbotron welcome-jumbotron col-md-12 col-xs-12" [@popOverState]="show">
     <div class="col-md-5">
       <img src="{{user.photoUrl}}" alt="">
     </div>
@@ -17,5 +16,5 @@
 
 </div>
 </section>
-</div>
+
 

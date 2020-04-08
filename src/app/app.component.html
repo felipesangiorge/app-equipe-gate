@@ -1,6 +1,4 @@
 <div>
-
-
   <div *ngIf="router.url != '/members'">
     <div class="background-image-custom-background-login">
       <app-header></app-header>
@@ -10,7 +8,7 @@
 
   <div *ngIf="router.url == '/members'">
     <div class="background-image-custom-background-members">
-        <div class="container">
+        <div>
           <app-header></app-header>
           <app-members></app-members>
       </div>

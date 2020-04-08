@@ -8,11 +8,25 @@
 
 .main-header li a{
   color: white;
-  text-align: center;
   font-size: 16px;
 }
 
 .container li :hover{
   background-color: white;
   color: black;
+}
+
+.brand-text-custom{
+  color: white;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.main-sidebar{
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.596);
+}
+
+.hide-header{
+  visibility: hidden;
 }
