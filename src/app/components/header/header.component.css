@@ -1,14 +1,15 @@
 
 .main-header{
-  background-color: black;
-}
-
-.main-header img{
-  max-width: 4%;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 40px;
+  margin-left: 0px;
+  border-bottom: 0px;
 }
 
 .main-header li a{
   color: white;
+  text-align: center;
+  font-size: 16px;
 }
 
 .container li :hover{

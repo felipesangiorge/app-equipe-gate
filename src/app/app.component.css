@@ -1,3 +1,7 @@
+html{
+  background-color: black;
+}
+
 .background-image-custom-background-login{
   background-image: url(../../src/assets/img/base_ota_escuro.jpg);
   background-size: cover;
