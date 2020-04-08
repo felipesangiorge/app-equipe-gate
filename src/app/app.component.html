@@ -1,16 +1,17 @@
 <div>
-  <div *ngIf="router.url != '/members'">
+
+  <div *ngIf="router.url == '/'">
     <div class="background-image-custom-background-login">
       <app-header></app-header>
-      <router-outlet></router-outlet>
+      <app-home></app-home>
     </div>
   </div>
 
-  <div *ngIf="router.url == '/members'">
+  <div *ngIf="router.url != '/'">
     <div class="background-image-custom-background-members">
-        <div>
+        <div class="container">
           <app-header></app-header>
-          <app-members></app-members>
+          <router-outlet></router-outlet>
       </div>
     </div>
   </div>

@@ -4,6 +4,7 @@
   src: url(../../../assets/font/font_gate.ttf) format("opentype");
 }
 
+
 #home-page img {
   max-width: 30%;
   max-height: fit-content;
@@ -23,7 +24,7 @@
 }
 
 .content{
-  min-height: 620px;
+  min-height: 500px;
 }
 
 .jumbotron {
@@ -57,8 +58,82 @@ li img{
 
 .container-fluid { overflow-x: hidden; }
 
-@media screen and (max-width:414px){
+@media screen and (max-width:900px){
+
+  #page-title{
+    font-size: 40px;
+  }
+
+  #home-page img {
+    max-width: 60%;
+  }
+
+  .partners-logo img{
+    max-width: 40%;
+  }
+
   .content{
     min-height: 280px;
   }
+
+}
+
+@media screen and (max-width:650px){
+
+  #page-title{
+    font-size: 20px;
+  }
+
+  #home-page img {
+    max-width: 30%;
+  }
+
+  .partners-logo img{
+    max-width: 40%;
+  }
+
+  .content{
+    min-height: 180px;
+  }
+
+}
+
+
+@media screen and (max-width:420px){
+
+  #page-title{
+    font-size: 25px;
+  }
+
+  #home-page img {
+    max-width: 30%;
+  }
+
+  .partners-logo img{
+    max-width: 30%;
+  }
+
+  .content{
+    min-height: 130px;
+  }
+
+  @media screen and (max-width:420px){
+
+    #page-title{
+      font-size: 15px;
+    }
+
+    #home-page img {
+      max-width: 20%;
+    }
+
+    .partners-logo img{
+      max-width: 30%;
+    }
+
+    .content{
+      min-height: 50px;
+    }
+  }
+
 }

@@ -1,6 +1,6 @@
 <div id="home-page">
   <div class="content container">
-    <div class="text-center">
+    <div class="text-center home-logo">
       <h1 id="page-title">Grupo Tatico de Airsoft</h1>
       <img src="../../../assets/img/logo_scar.png">
     </div>
@@ -8,19 +8,19 @@
 
   <div id="jumbotron-transparent" class="text-center jumbotron welcome-jumbotron col-md-12 col-xs-12" >
     <h1 class="font-gate">Parceiros:</h1>
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-6 col-xs-12 partners-logo">
     <img src="../../../assets/img/partners/shotzone.png">
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-6 col-xs-12 partners-logo">
       <img src="../../../assets/img/partners/andrewarpics.png">
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6 col-xs-12 partners-logo">
         <img src="../../../assets/img/partners/resguear.png">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6 col-xs-12 partners-logo">
           <img src="../../../assets/img/partners/shadow.png">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-6 col-xs-12 partners-logo">
             <img src="../../../assets/img/partners/acero.png">
             </div>
   </div>
@@ -35,7 +35,7 @@
     <h1 class="font-gate text-center">Membros</h1>
       <div class="container container-fluid">
         <div class="row">
-          <div class="members col-3 col-xs-12" *ngFor="let user of users">
+          <div class="members col-md-4 col-sm-6 col-xs-6" *ngFor="let user of users">
             <li>
               <img src="{{user.roundedPhotoUrl}}" alt="User Image">
               <a class="users-list-name" href="#">{{user.name}}</a>
