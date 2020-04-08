@@ -102,22 +102,22 @@ li img{
 @media screen and (max-width:420px){
 
   #page-title{
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #home-page img {
-    max-width: 30%;
+    max-width: 35%;
   }
 
   .partners-logo img{
-    max-width: 30%;
+    max-width: 20%;
   }
 
   .content{
-    min-height: 130px;
+    min-height: 100px;
   }
 
-  @media screen and (max-width:420px){
+  @media screen and (max-width:320px){
 
     #page-title{
       font-size: 15px;
