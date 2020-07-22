@@ -57,7 +57,7 @@ li img{
 }
 
 iframe{
-  text-align: center;
+  max-width: 100%;
 }
 
 .container-fluid { overflow-x: hidden; }
@@ -81,6 +81,10 @@ iframe{
     min-height: 280px;
   }
 
+  iframe{
+    height: 400px;
+  }
+
 }
 
 @media screen and (max-width:650px){
@@ -100,6 +104,10 @@ iframe{
 
   .content{
     min-height: 180px;
+  }
+
+  iframe{
+    height: 350px;
   }
 
 }
@@ -123,6 +131,10 @@ iframe{
     min-height: 100px;
   }
 
+  iframe{
+    height: 230px;
+  }
+
   @media screen and (max-width:320px){
 
     #page-title{
@@ -139,6 +151,9 @@ iframe{
 
     .content{
       min-height: 50px;
+    }
+    iframe{
+      height: 200px;
     }
   }
 
