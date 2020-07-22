@@ -31,17 +31,15 @@
   </div>
 
   <div  id="jumbotron-third" class="text-left jumbotron welcome-jumbotron">
-    <h1 class="font-gate text-center">Membros</h1>
-      <div class="container container-fluid">
-        <div class="row">
-          <div class="members col-md-4 col-sm-4 col-6" *ngFor="let user of users">
-            <li>
-              <img src="{{user.roundedPhotoUrl}}" alt="User Image">
-              <a class="users-list-name" href="#">{{user.name}}</a>
-              <span class="users-list-date">{{user.position}}</span>
-            </li>
-          </div>
-        </div>
-     </div>
+    <h1 class="font-gate text-center">O COMEÇO</h1>
+
+     <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
+      <div class="text-center">
+        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgateairsoftclube%2Fvideos%2F950116065171503%2F&show_text=false&width=734&appId=2928874953901825&height=411" width="734" height="411" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+      </div>
+
   </div>
 </div>

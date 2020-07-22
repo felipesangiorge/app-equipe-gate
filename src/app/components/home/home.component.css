@@ -56,6 +56,10 @@ li img{
   width: 150px;
 }
 
+iframe{
+  text-align: center;
+}
+
 .container-fluid { overflow-x: hidden; }
 
 @media screen and (max-width:900px){
